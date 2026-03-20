@@ -46,19 +46,33 @@
    
 
     .main h2 {
-      font-family: 'Panchang';
-      font-size: 48px;
-      margin-bottom: 20px;
-      letter-spacing: 3px;
+  font-family: 'Panchang';
+  font-size: 48px;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
 
-        background: linear-gradient(to right, #040F7B, #2B3FF8, #040F7B);
+ 
+  background-image: linear-gradient(
+      to right,
+      rgba(7, 9, 84, 1) 0%,
+      rgba(255, 255, 255, 0.6) 40%,
+      rgba(7, 9, 84, 1) 80%
+      
+    ),
+    linear-gradient(to bottom, #6f7cff, #040F7B, #02074a);
 
-  -webkit-background-clip: text; /* Chrome, Safari */
-  background-clip: text;         /* Standard */
+  -webkit-background-clip: text;
+  background-clip: text;
 
-  -webkit-text-fill-color: transparent; /* Required for WebKit */
+  -webkit-text-fill-color: transparent;
   color: transparent;
-    }
+
+ 
+  text-shadow: 
+    0 2px 4px rgba(0, 0, 0, 0.4),
+    0 0 6px rgba(255, 255, 255, 0.2);
+}
+
 
     
     footer {
